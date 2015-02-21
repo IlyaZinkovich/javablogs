@@ -1,4 +1,4 @@
-package by.epam.tutorial;
+package by.epam.tutorial.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
