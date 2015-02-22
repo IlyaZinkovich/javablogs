@@ -9,6 +9,7 @@ import by.epam.tutorial.repository.ItemRepository;
 import by.epam.tutorial.repository.RoleRepository;
 import by.epam.tutorial.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -41,8 +42,11 @@ public class InitDbService {
         roleRepository.save(roleAdmin);
 
         User userAdmin = new User();
+        userAdmin.setEnabled(true);
         userAdmin.setName("admin");
-        List<Role> roles = new ArrayList<Role>();
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        userAdmin.setPassword(encoder.encode("admin"));
+        List<Role> roles = new ArrayList<>();
         roles.add(roleAdmin);
         roles.add(roleUser);
         userAdmin.setRoles(roles);
@@ -53,20 +57,6 @@ public class InitDbService {
         blogJavavids.setUrl("http://feeds.feedburner.com/javavids?format=xml");
         blogJavavids.setUser(userAdmin);
         blogRepository.save(blogJavavids);
-
-        Item firstItem = new Item();
-        firstItem.setBlog(blogJavavids);
-        firstItem.setTitle("First");
-        firstItem.setLink("http://www.javavids.com/");
-        firstItem.setPublishedDate(new Date());
-        itemRepository.save(firstItem);
-
-        Item secondItem = new Item();
-        secondItem.setBlog(blogJavavids);
-        secondItem.setTitle("Second");
-        secondItem.setLink("http://www.javavids.com/");
-        secondItem.setPublishedDate(new Date());
-        itemRepository.save(secondItem);
 
     }
 }

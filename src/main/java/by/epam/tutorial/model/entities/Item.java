@@ -1,5 +1,7 @@
 package by.epam.tutorial.model.entities;
 
+import org.hibernate.annotations.Type;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -14,6 +16,7 @@ public class Item {
     private String title;
 
     @Lob
+    @Type(type = "org.hibernate.type.StringClobType")
     @Column(length = Integer.MAX_VALUE)
     private String description;
 

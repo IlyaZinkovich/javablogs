@@ -43,5 +43,7 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <import resource="security.xml"/>
 
+    <task:annotation-driven />
 </beans>

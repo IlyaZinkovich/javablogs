@@ -1,6 +1,10 @@
 package by.epam.tutorial.model.entities;
 
+import by.epam.tutorial.annotation.UniqueUsername;
+import org.hibernate.validator.constraints.Email;
+
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -9,15 +13,26 @@ public class User {
     @Id
     @GeneratedValue
     private Integer id;
+
+    @UniqueUsername(message = "The user with this name already exists")
+    @Column(unique = true)
+    @Size(min = 3, message = "Name must be at least 3 characters")
     private String name;
+
+    @Size(min = 1, message = "Invalid email address")
+    @Email(message = "Invalid email address")
     private String email;
+
+    @Size(min = 5, message = "Password must be at least 5 characters")
     private String password;
+
+    private boolean enabled;
 
     @ManyToMany
     @JoinTable
     private List<Role> roles;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
     private List<Blog> blogs;
 
     public Integer getId() {
@@ -66,5 +81,13 @@ public class User {
 
     public void setBlogs(List<Blog> blogs) {
         this.blogs = blogs;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 }
