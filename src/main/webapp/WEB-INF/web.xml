@@ -53,6 +53,10 @@
 		<param-value>true</param-value>
 	</context-param>
 
+	<context-param>
+		<param-name>spring.profiles.default</param-name>
+		<param-value>prod</param-value>
+	</context-param>
 	<!--<filter>-->
 		<!--<filter-name>oemInViewFilter</filter-name>-->
 		<!--<filter-class>org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter</filter-class>-->

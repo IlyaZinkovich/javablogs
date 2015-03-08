@@ -32,7 +32,7 @@ public class RssService {
         return getItems(new StreamSource(url));
     }
     private List<Item> getItems(Source source) throws RssException {
-        List<Item> itemList = new ArrayList<>();
+        List<Item> itemList = new ArrayList<Item>();
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(ObjectFactory.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
@@ -51,7 +51,9 @@ public class RssService {
                     itemList.add(item);
                 }
             }
-        } catch (JAXBException | ParseException e) {
+        } catch (JAXBException e) {
+            throw new RssException(e);
+        } catch (ParseException e) {
             throw new RssException(e);
         }
         return itemList;

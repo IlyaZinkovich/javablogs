@@ -11,6 +11,7 @@
         <spring.version>4.1.1.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
         <tiles.version>3.0.5</tiles.version>
+        <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
     </properties>
 
     <dependencies>
@@ -154,18 +155,40 @@
             <artifactId>hibernate-validator</artifactId>
             <version>5.0.3.Final</version>
         </dependency>
-
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901-1.jdbc4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
+        </dependency>
 
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>${spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <finalName>javablogs</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
             <plugin>

@@ -33,30 +33,34 @@ public class InitDbService {
 
     @PostConstruct
     public void init() {
-        Role roleUser = new Role();
-        roleUser.setName("ROLE_USER");
-        roleRepository.save(roleUser);
 
-        Role roleAdmin = new Role();
-        roleAdmin.setName("ROLE_ADMIN");
-        roleRepository.save(roleAdmin);
+        if (roleRepository.findByName("ROLE_ADMIN") == null) {
 
-        User userAdmin = new User();
-        userAdmin.setEnabled(true);
-        userAdmin.setName("admin");
-        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        userAdmin.setPassword(encoder.encode("admin"));
-        List<Role> roles = new ArrayList<>();
-        roles.add(roleAdmin);
-        roles.add(roleUser);
-        userAdmin.setRoles(roles);
-        userRepository.save(userAdmin);
 
-        Blog blogJavavids = new Blog();
-        blogJavavids.setName("JavaVids");
-        blogJavavids.setUrl("http://feeds.feedburner.com/javavids?format=xml");
-        blogJavavids.setUser(userAdmin);
-        blogRepository.save(blogJavavids);
+            Role roleUser = new Role();
+            roleUser.setName("ROLE_USER");
+            roleRepository.save(roleUser);
 
+            Role roleAdmin = new Role();
+            roleAdmin.setName("ROLE_ADMIN");
+            roleRepository.save(roleAdmin);
+
+            User userAdmin = new User();
+            userAdmin.setEnabled(true);
+            userAdmin.setName("admin");
+            BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+            userAdmin.setPassword(encoder.encode("admin"));
+            List<Role> roles = new ArrayList<Role>();
+            roles.add(roleAdmin);
+            roles.add(roleUser);
+            userAdmin.setRoles(roles);
+            userRepository.save(userAdmin);
+
+            Blog blogJavavids = new Blog();
+            blogJavavids.setName("JavaVids");
+            blogJavavids.setUrl("http://feeds.feedburner.com/javavids?format=xml");
+            blogJavavids.setUser(userAdmin);
+            blogRepository.save(blogJavavids);
+        }
     }
 }

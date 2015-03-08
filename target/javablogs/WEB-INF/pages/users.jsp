@@ -27,9 +27,11 @@
           </a>
         </td>
         <td>
+          <c:if test="${not user.name.equals('admin')}">
           <a href="<spring:url value="/users/remove/${user.id}.html" />" class="btn btn-danger triggerRemove">
               Remove
           </a>
+          </c:if>
         </td>
       </tr>
     </c:forEach>

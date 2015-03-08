@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="perfectjavablogs" type="heroku-deploy" factoryName="Heroku Deployment" singleton="true" server-name="Heroku">
+    <deployment type="artifact" name="javablogs:war">
+      <settings>
+        <option name="host" value="" />
+      </settings>
+    </deployment>
+    <RunnerSettings RunnerId="DeployToServer" />
+    <ConfigurationWrapper RunnerId="DeployToServer" />
+    <method>
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="javablogs:war" />
+      </option>
+    </method>
+  </configuration>
+</component>
