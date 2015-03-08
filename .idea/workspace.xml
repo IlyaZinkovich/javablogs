@@ -2,121 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3dcad18-db3f-4259-ac0e-0a8f315746f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_heroku_sdk_heroku_deploy_0_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_50.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_3_6_2_201501210735_r.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/database-dev.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/database-prod.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/heroku.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/javablogs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/perfectjavablogs.xml" />
-      <change type="DELETED" beforePath="C:\Users\IlyaZinkovich\javablogs\target\javablogs\WEB-INF\lib\spring-jdbc-3.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\IlyaZinkovich\javablogs\target\javablogs\WEB-INF\lib\spring-orm-3.2.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\IlyaZinkovich\javablogs\target\javablogs\WEB-INF\lib\spring-tx-3.2.8.RELEASE.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/by/epam/tutorial/AppTests.class" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/tutorial/AppTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Blog.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Blog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Blog.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Blog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/BlogRepository.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/BlogRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/BlogRepository.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/BlogRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/BlogService.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/BlogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/BlogService.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/BlogService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/InitDbService.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/InitDbService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/InitDbService.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/InitDbService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Item.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Item.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/ItemRepository.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/ItemRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/ItemRepository.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/ItemRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/ItemService.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/ItemService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/ItemService.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/ItemService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/ObjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/ObjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/RegistrationController.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/RegistrationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/RegistrationController.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/RegistrationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Role.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Role.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/RoleRepository.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/RoleRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/RoleRepository.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/RoleRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/exception/RssException.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/exception/RssException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/exception/RssException.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/exception/RssException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/RssService.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/RssService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/RssService.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/RssService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/by/epam/tutorial/service/RssServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/tutorial/service/RssServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCategory.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCategory.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCloud.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCloud.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCloud.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCloud.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCloudProtocol.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TCloudProtocol.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCloudProtocol.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TCloudProtocol.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TEnclosure.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TEnclosure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TEnclosure.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TEnclosure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TGuid.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TGuid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TGuid.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TGuid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TImage.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TImage.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRss.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRss.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRss.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRss.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRssChannel.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRssChannel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRssChannel.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRssChannel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRssItem.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TRssItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRssItem.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TRssItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TSource.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TSource.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TTextInput.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/rss/TTextInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TTextInput.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/rss/TTextInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/annotation/UniqueUsername.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/annotation/UniqueUsername.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/annotation/UniqueUsername.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/annotation/UniqueUsername.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/annotation/UniqueUsernameValidator.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/annotation/UniqueUsernameValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/annotation/UniqueUsernameValidator.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/annotation/UniqueUsernameValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/User.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/model/entities/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/User.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/model/entities/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/UserController.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/repository/UserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/repository/UserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/tutorial/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/UserService.class" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/classes/by/epam/tutorial/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs.war" afterPath="$PROJECT_DIR$/target/javablogs.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/service/InitDbService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/service/InitDbService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/controller/RegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/controller/RegistrationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/service/RssService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/service/RssService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/model/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tutorial/model/entities/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/classic.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/classic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/layout/classic.jsp" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/layout/classic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javablogs.iml" afterPath="$PROJECT_DIR$/javablogs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/javablogs_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/javablogs_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/pages/register.jsp" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/pages/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/pages/users.jsp" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/pages/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javablogs/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/javablogs/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javablogs.iws" />
@@ -173,8 +59,8 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6255924" vertical-offset="25" max-vertical-offset="765">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30331755" vertical-offset="25" max-vertical-offset="765">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1110,7 +996,7 @@
       <workItem from="1424859305050" duration="11038000" />
       <workItem from="1424935003635" duration="2838000" />
       <workItem from="1425198880613" duration="808000" />
-      <workItem from="1425822000213" duration="38000" />
+      <workItem from="1425822000213" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="First Step:&#10;Apache Tiles&#10;Bootstrap&#10;Hibernate&#10;Spring Data JPA">
       <created>1424549116941</created>
@@ -1130,11 +1016,17 @@
       <option name="project" value="LOCAL" />
       <updated>1424645506525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Last Changes">
+      <created>1425822222037</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1425822222037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93473000" />
+    <option name="totallyTimeSpent" value="93753000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1160,35 +1052,35 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19730078" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22879177" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22879177" sideWeight="0.49785408" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22879177" sideWeight="0.50089765" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.49932885" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22879177" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22879177" sideWeight="0.49785408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22879177" sideWeight="0.50089765" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37181208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1621,8 +1513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6255924" vertical-offset="25" max-vertical-offset="765">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30331755" vertical-offset="25" max-vertical-offset="765">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
